@@ -223,8 +223,4 @@ public class SwipeLayout extends FrameLayout {
         }
         return super.onInterceptTouchEvent(ev);
     }
-
-    public interface onSwipeListener {
-        // TODO: 2016/5/26 add interfaces so that users can interact with this viewgroup.
-    }
 }
